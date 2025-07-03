@@ -409,7 +409,7 @@ const About: React.FC = () => {
     </div>
     <div className="h-64 lg:h-auto flex items-center justify-center bg-gray-50">
       <img
-        src="/vsmart-logo.png"  // replace with actual logo path
+        src="\WhatsApp Image 2025-07-03 at 12.03.07_e92e37e1.jpg"  // replace with actual logo path
         alt="V SMART POWER SOLUTIONS"
         className="max-w-full max-h-full object-contain p-8"
       />

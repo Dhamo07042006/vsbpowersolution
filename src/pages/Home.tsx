@@ -256,62 +256,64 @@ const Home: React.FC = () => {
           <div className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               {/* Project Images Slideshow */}
-              <div className="relative h-80 lg:h-auto">
-                <div 
-                  className="flex transition-transform duration-500 ease-in-out h-full"
-                  style={{ transform: `translateX(-${currentKovilpattiSlide * 100}%)` }}
-                >
-                  {kovilpattiImages.map((image, index) => (
-                    <div key={index} className="w-full h-full flex-shrink-0 relative">
-                      <img
-                        src={image.src}
-                        alt={image.title}
-                        className="w-full h-full object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                      <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                        <h4 className="text-lg font-bold mb-1">{image.title}</h4>
-                        <p className="text-sm text-gray-200">{image.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+<div className="relative h-80 lg:h-[500px] overflow-hidden">
+  <div
+    className="flex w-full transition-transform duration-500 ease-in-out"
+    style={{ transform: `translateX(-${currentKovilpattiSlide * 100}%)` }}
+  >
+    {kovilpattiImages.map((image, index) => (
+      <div key={index} className="w-full flex-shrink-0 relative h-80 lg:h-[500px]">
+        <img
+          src={image.src}
+          alt={image.title}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+          <h4 className="text-lg font-bold mb-1">{image.title}</h4>
+          <p className="text-sm text-gray-200">{image.description}</p>
+        </div>
+      </div>
+    ))}
+  </div>
 
-                {/* Slideshow Navigation */}
-                <button
-                  onClick={prevKovilpattiSlide}
-                  className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors duration-200"
-                >
-                  <ChevronLeft className="h-5 w-5" />
-                </button>
-                <button
-                  onClick={nextKovilpattiSlide}
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors duration-200"
-                >
-                  <ChevronRight className="h-5 w-5" />
-                </button>
+  {/* Slideshow Navigation */}
+  <button
+    onClick={prevKovilpattiSlide}
+    className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors duration-200"
+  >
+    <ChevronLeft className="h-5 w-5" />
+  </button>
+  <button
+    onClick={nextKovilpattiSlide}
+    className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors duration-200"
+  >
+    <ChevronRight className="h-5 w-5" />
+  </button>
 
-                {/* Auto-play Toggle */}
-                <button
-                  onClick={toggleKovilpattiAutoPlay}
-                  className="absolute top-2 right-2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors duration-200"
-                >
-                  {isKovilpattiAutoPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
-                </button>
+  {/* Auto-play Toggle */}
+  <button
+    onClick={toggleKovilpattiAutoPlay}
+    className="absolute top-2 right-2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors duration-200"
+  >
+    {isKovilpattiAutoPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+  </button>
 
-                {/* Slide Indicators */}
-                <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 flex space-x-2">
-                  {kovilpattiImages.map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => goToKovilpattiSlide(index)}
-                      className={`w-2 h-2 rounded-full transition-colors duration-200 ${
-                        index === currentKovilpattiSlide ? 'bg-white' : 'bg-white/50 hover:bg-white/75'
-                      }`}
-                    />
-                  ))}
-                </div>
-              </div>
+  {/* Slide Indicators */}
+  <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 flex space-x-2">
+    {kovilpattiImages.map((_, index) => (
+      <button
+        key={index}
+        onClick={() => goToKovilpattiSlide(index)}
+        className={`w-2 h-2 rounded-full transition-colors duration-200 ${
+          index === currentKovilpattiSlide
+            ? 'bg-white'
+            : 'bg-white/50 hover:bg-white/75'
+        }`}
+      />
+    ))}
+  </div>
+</div>
 
               {/* Project Details */}
               <div className="p-8 lg:p-12">
