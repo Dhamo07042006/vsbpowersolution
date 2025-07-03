@@ -312,63 +312,6 @@ const About: React.FC = () => {
           </div>
 
           <div className="space-y-8">
-             {/* Chief Technical Advisor */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="h-64 lg:h-auto">
-                  <img
-                    src="/image copy copy copy.png"
-                    alt="Mr. P. Venkittaswamy - Chief Technical Advisor"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-8 lg:p-12 flex flex-col justify-center">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-gradient-to-r from-teal-500 to-cyan-600 p-3 rounded-lg mr-4">
-                      <UserCheck className="h-6 w-6 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-900">Mr. P. Venkittaswamy</h3>
-                      <p className="text-lg text-teal-600 font-semibold">Chief Technical Advisor</p>
-                      <p className="text-sm text-gray-600">M/s Union Electricals</p>
-                    </div>
-                  </div>
-                  
-                  <p className="text-gray-600 mb-6">
-                    With vast experience in solar and electrical infrastructure, Mr. P. Venkittaswamy offers strategic 
-                    and technical guidance to ensure every project meets the highest standards of efficiency, safety, 
-                    and performance. His insights contribute greatly to project design, optimization, and execution.
-                  </p>
-
-                  <p className="text-gray-600 mb-6">
-                    As our Chief Technical Advisor, Mr. Venkittaswamy brings decades of expertise in electrical systems 
-                    and renewable energy technologies. His guidance ensures that our solar installations are not only 
-                    technically sound but also optimized for maximum performance and longevity.
-                  </p>
-
-                  <div className="space-y-2">
-                    <div className="flex items-center space-x-2">
-                      <CheckCircle className="h-5 w-5 text-teal-500" />
-                      <span className="text-gray-700">Extensive experience in solar and electrical infrastructure</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <CheckCircle className="h-5 w-5 text-teal-500" />
-                      <span className="text-gray-700">Strategic technical guidance and consultation</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <CheckCircle className="h-5 w-5 text-teal-500" />
-                      <span className="text-gray-700">Project design and optimization expertise</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <CheckCircle className="h-5 w-5 text-teal-500" />
-                      <span className="text-gray-700">Ensures highest standards of efficiency and safety</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
             {/* Channel Partner - BRENSOL */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -475,7 +418,63 @@ const About: React.FC = () => {
 </div>
 
 
-           
+            {/* Chief Technical Advisor */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="h-64 lg:h-auto">
+                  <img
+                    src="/image copy copy copy.png"
+                    alt="Mr. P. Venkittaswamy - Chief Technical Advisor"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-8 lg:p-12 flex flex-col justify-center">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-gradient-to-r from-teal-500 to-cyan-600 p-3 rounded-lg mr-4">
+                      <UserCheck className="h-6 w-6 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-gray-900">Mr. P. Venkittaswamy</h3>
+                      <p className="text-lg text-teal-600 font-semibold">Chief Technical Advisor</p>
+                      <p className="text-sm text-gray-600">M/s Union Electricals</p>
+                    </div>
+                  </div>
+                  
+                  <p className="text-gray-600 mb-6">
+                    With vast experience in solar and electrical infrastructure, Mr. P. Venkittaswamy offers strategic 
+                    and technical guidance to ensure every project meets the highest standards of efficiency, safety, 
+                    and performance. His insights contribute greatly to project design, optimization, and execution.
+                  </p>
+
+                  <p className="text-gray-600 mb-6">
+                    As our Chief Technical Advisor, Mr. Venkittaswamy brings decades of expertise in electrical systems 
+                    and renewable energy technologies. His guidance ensures that our solar installations are not only 
+                    technically sound but also optimized for maximum performance and longevity.
+                  </p>
+
+                  <div className="space-y-2">
+                    <div className="flex items-center space-x-2">
+                      <CheckCircle className="h-5 w-5 text-teal-500" />
+                      <span className="text-gray-700">Extensive experience in solar and electrical infrastructure</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <CheckCircle className="h-5 w-5 text-teal-500" />
+                      <span className="text-gray-700">Strategic technical guidance and consultation</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <CheckCircle className="h-5 w-5 text-teal-500" />
+                      <span className="text-gray-700">Project design and optimization expertise</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <CheckCircle className="h-5 w-5 text-teal-500" />
+                      <span className="text-gray-700">Ensures highest standards of efficiency and safety</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Achievements */}
         <div className="mb-16">
