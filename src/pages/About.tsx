@@ -136,7 +136,7 @@ const About: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900">Sadish kumar N</h3>
-                      <p className="text-lg text-green-600 font-semibold">Partner & Solar Operations Head</p>
+                      <p className="text-lg text-green-600 font-semibold">Proprietor & Solar Operations Head</p>
                     </div>
                   </div>
                   
@@ -366,6 +366,57 @@ const About: React.FC = () => {
                 </div>
               </div>
             </div>
+            {/* Core EPC Partner - V SMART POWER SOLUTIONS */}
+<div className="bg-white rounded-lg shadow-lg overflow-hidden">
+  <div className="grid grid-cols-1 lg:grid-cols-2">
+    <div className="p-8 lg:p-12 flex flex-col justify-center">
+      <div className="flex items-center mb-4">
+        <div className="bg-gradient-to-r from-green-600 to-emerald-500 p-3 rounded-lg mr-4">
+          <Building2 className="h-6 w-6 text-white" />
+        </div>
+        <div>
+          <h3 className="text-2xl font-bold text-gray-900">V SMART POWER SOLUTIONS</h3>
+          <p className="text-lg text-green-600 font-semibold">Core EPC Channel Partner</p>
+        </div>
+      </div>
+
+      <p className="text-gray-600 mb-6">
+        Based in Trichy, Tamil Nadu, V SMART POWER SOLUTIONS delivers end-to-end solar EPC services—specializing in design, procurement, installation, and long-term support for residential, commercial, and industrial projects.
+      </p>
+
+      <p className="text-gray-600 mb-6">
+        With a deep commitment to quality and innovation, the company deploys Tier-1 components, ensures full government approvals, and offers performance-backed warranties. Their execution model has made them a trusted name across Tamil Nadu’s clean energy sector.
+      </p>
+
+      <div className="space-y-2">
+        <div className="flex items-center space-x-2">
+          <CheckCircle className="h-5 w-5 text-green-500" />
+          <span className="text-gray-700">Customized solar EPC solutions</span>
+        </div>
+        <div className="flex items-center space-x-2">
+          <CheckCircle className="h-5 w-5 text-green-500" />
+          <span className="text-gray-700">25-year module warranty, 10-year inverter support</span>
+        </div>
+        <div className="flex items-center space-x-2">
+          <CheckCircle className="h-5 w-5 text-green-500" />
+          <span className="text-gray-700">Specialist in grid-connected rooftop and ground-mount systems</span>
+        </div>
+        <div className="flex items-center space-x-2">
+          <CheckCircle className="h-5 w-5 text-green-500" />
+          <span className="text-gray-700">Turnkey project delivery with 1-year O&M</span>
+        </div>
+      </div>
+    </div>
+    <div className="h-64 lg:h-auto flex items-center justify-center bg-gray-50">
+      <img
+        src="/vsmart-logo.png"  // replace with actual logo path
+        alt="V SMART POWER SOLUTIONS"
+        className="max-w-full max-h-full object-contain p-8"
+      />
+    </div>
+  </div>
+</div>
+
 
             {/* Chief Technical Advisor */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
