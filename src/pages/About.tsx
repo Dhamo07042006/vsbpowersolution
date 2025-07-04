@@ -244,7 +244,7 @@ const About: React.FC = () => {
                   <img
                     src="/WhatsApp Image 2025-07-01 at 23.13.02_7cd6c576.jpg"
                     alt="Mr. Balu - Director, Mahalakshmi Industry"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <div className="p-8 lg:p-12 flex flex-col justify-center">
@@ -425,7 +425,7 @@ const About: React.FC = () => {
                   <img
                     src="/venkatteswaran.jpg"
                     alt="Mr. P. Venkittaswamy - Chief Technical Advisor"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <div className="p-8 lg:p-12 flex flex-col justify-center">

@@ -4,7 +4,7 @@ import { UserCheck, CheckCircle } from 'lucide-react';
 const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Ms. ______',
+      name: 'Ms.BINDHUMOL S ',
       role: 'Founder, V SMART POWER SOLUTIONS',
       image: '/WhatsApp Image 2025-07-04 at 13.12.37_8ce572581.jpg', // Ensure correct path
       iconColor: 'from-green-600 to-emerald-500',
@@ -16,7 +16,7 @@ const Team: React.FC = () => {
       ]
     },
     {
-      name: 'Mr. Nivaz',
+      name: 'Mr. NIVAZ',
       role: 'Branch Manager, Kovilpatti Division',
       image: '/kvpmanager.jpg',
       iconColor: 'from-blue-600 to-indigo-500',
@@ -28,7 +28,7 @@ const Team: React.FC = () => {
       ]
     },
     {
-      name: 'Mr. Abhisek',
+      name: 'Mr. ABHISEK',
       role: 'Junior Marketing Head, Local Division',
       image: '/maket head.jpg',
       iconColor: 'from-orange-500 to-yellow-500',
