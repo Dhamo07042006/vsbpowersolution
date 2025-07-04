@@ -6,7 +6,7 @@ const Team: React.FC = () => {
     {
       name: 'Ms. ______',
       role: 'Founder, V SMART POWER SOLUTIONS',
-      image: '/WhatsApp Image 2025-07-04 at 13.12.37_8ce572581.jpg',
+      image: '/WhatsApp Image 2025-07-04 at 13.12.37_8ce572581.jpg', // Ensure correct path
       iconColor: 'from-green-600 to-emerald-500',
       points: [
         'Founder of V SMART based in Trichy',
@@ -55,15 +55,16 @@ const Team: React.FC = () => {
           {teamMembers.map((member, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2">
-                {/* Responsive Image Container */}
+                {/* Image */}
                 <div className="w-full h-64 sm:h-72 md:h-80 lg:h-full">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
 
+                {/* Info */}
                 <div className="p-8 lg:p-12 flex flex-col justify-center">
                   <div className="flex items-center mb-4">
                     <div className={`bg-gradient-to-r ${member.iconColor} p-3 rounded-lg mr-4`}>

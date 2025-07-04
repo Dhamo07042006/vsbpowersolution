@@ -423,7 +423,7 @@ const About: React.FC = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="h-64 lg:h-auto">
                   <img
-                    src="/image copy copy copy.png"
+                    src="/venkatteswaran.jpg"
                     alt="Mr. P. Venkittaswamy - Chief Technical Advisor"
                     className="w-full h-full object-cover"
                   />
