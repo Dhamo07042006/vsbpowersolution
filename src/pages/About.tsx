@@ -135,7 +135,7 @@ const About: React.FC = () => {
                       <User className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-900">Sadish kumar N</h3>
+                      <h3 className="text-2xl font-bold text-gray-900">Mr. Sadish kumar N</h3>
                       <p className="text-lg text-green-600 font-semibold">Proprietor & Solar Operations Head</p>
                     </div>
                   </div>
