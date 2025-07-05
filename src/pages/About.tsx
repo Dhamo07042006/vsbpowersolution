@@ -185,25 +185,25 @@ const About: React.FC = () => {
                       <Package className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-900">Mr. Vikream</h3>
+                      <h3 className="text-2xl font-bold text-gray-900">Mr. Vikram Velusamy</h3>
                       <p className="text-lg text-orange-600 font-semibold">Partner & Founder, Siruvani Packaging</p>
                     </div>
                   </div>
                   
                   <p className="text-gray-600 mb-4 italic">
-                    "Driven by innovation and built on trust, Mr. Vikream leads Siruvani Packaging with a commitment 
+                    "Driven by innovation and built on trust, Mr. Vikram Velusamy leads Siruvani Packaging with a commitment 
                     to quality, precision, and eco-conscious packaging solutions."
                   </p>
                   
                   <p className="text-gray-600 mb-6">
-                    Wearing confidence and humility, Mr. Vikream is the visionary behind Siruvani Packaging — a company 
+                    Wearing confidence and humility, Mr. Vikram Velusamy is the visionary behind Siruvani Packaging — a company 
                     known for delivering reliable and sustainable packaging services across Tamil Nadu. His leadership 
                     reflects in every layer of the company's mission: from using top-grade materials to maintaining 
                     strong client relationships.
                   </p>
 
                   <p className="text-gray-600 mb-6">
-                    As a partner in VSB Power Solutions, Mr. Vikream brings his business acumen and commitment to 
+                    As a partner in VSB Power Solutions, Mr. Vikram Velusamy brings his business acumen and commitment to 
                     sustainability, helping to drive our mission of providing eco-friendly solar energy solutions 
                     that align with environmental responsibility and business excellence.
                   </p>
