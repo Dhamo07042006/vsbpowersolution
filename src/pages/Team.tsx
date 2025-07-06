@@ -28,7 +28,7 @@ const Team: React.FC = () => {
       ]
     },
     {
-      name: 'Mr. ABHISEK',
+      name: 'Mr. Abishek L',
       role: 'Junior Marketing Head, Local Division',
       image: '/maket head.jpg',
       iconColor: 'from-orange-500 to-yellow-500',
